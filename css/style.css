@@ -1,0 +1,67 @@
+/*Navigation Bar*/
+header{
+  vertical-align: top;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  width: 20%;
+  padding:1%;
+}
+.nav{
+  display: inline-block;
+  width: 70%;
+  padding: 1%;
+}
+.nav ul li{
+  display:inline;
+  margin-left: auto;
+  padding: 8px;
+}
+.nav ul{
+  float: right;
+}
+
+  /*About Me*/
+  .heroImg {
+    height: 600px;
+    padding: 25px;
+  }
+  .content {
+    margin: 0 auto;
+    width: 750px;
+  }
+  .left {
+    float: left;
+    padding-right: 15px;
+  }
+  
+    /*Footer*/
+  footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  text-align: center;
+  }
+  footer ul li{
+    display: inline-block;
+    padding: 8px;
+  }
+    /*Web Style*/
+  h1 {
+    font-family: Cormorant, Bold;
+    font-size: 25px;
+  }
+  p {
+    font-family: Open Sans, regular;
+    font-size: 15px;
+  }
+  a:link {
+    font-family: Open Sans, regular;
+  }
