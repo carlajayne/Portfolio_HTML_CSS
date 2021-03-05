@@ -35,13 +35,13 @@ header{
     margin: 0 auto;
     width: 750px;
   }
-  .left {
-    float: left;
+  .right {
+    float: right;
     padding-right: 15px;
   }
     /*Case Studies*/
 .CaseStudies {
-  background-color: gray;
+  background-color: #C4C4C4;
 }
 
 .flexContainer {
@@ -51,27 +51,18 @@ header{
   padding: 16px;
 }
 
-.flex_item
 
     /*Skills and Tools*/
 
 .SkillsandTools {
-  background-color: gray;
+  background-color: #C4C4C4;
 }
 
 .mySkills {
-  background-color: burlywood;
 }
-
-.mySkill_list
-
 .myTools {
-  display: flex;
-  background-color: cadetblue;
+  
 }
-
-.toolslist ul li img
-
 
     /*Footer*/
   footer {
@@ -89,7 +80,8 @@ header{
     /*Web Style*/
   h1 {
     font-family: Cormorant, Bold;
-    font-size: 25px;
+    font-size: 60px;
+    color:#A49393;
   }
   p {
     font-family: Open Sans, regular;
@@ -100,8 +92,12 @@ header{
   }
   button {
     font-family: Open Sans, Regular;
-    font-size: 25px;
-    background-color: blue;
+    font-size: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    border: none;
   }
 
   h2

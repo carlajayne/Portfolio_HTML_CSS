@@ -25,9 +25,11 @@
     <!-- About Me -->
     <section class="heroImg">
         <div class="content">
-                <img src="images/carla_desktop.png" class="left">
-                <h1>Carla Jayne Ramos</h1>
+                <img src="images/carla_desktop.png" class="right">
+                <h1 class="titlename">Carla Jayne Ramos</h1>
                 <p>UX/UI Designer from Winnipeg, Manitoba and currently living here in Mississauga, Ontario!<br>Here to create meaningful experiences through my designs!</p>
+                <br>
+                <br>
                 <button>Download Resume</button>
             </div>
     </section>
@@ -61,7 +63,7 @@
     <section class="SkillsandTools">
         <h1>Skills</h1>
         <div class="mySkills">
-            <div class="mySkills_list">
+            <div id="row" class="mySkills_list">
                 <h2>User Research</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et platea imperdiet anim nisl ac.</p>
                 <h2>Usability Testing</h2>
@@ -72,14 +74,23 @@
         </div>
         <h1>Tools</h1>
         <div class="myTools">
-            <ul class="toolslist">
-            <li><img src="images/animate.png" alt="Adobe Illustraitor"></li>
-            <li><img src="images/xd.png" alt="Adobe XD"></li>
-            <li><img src="images/photoshop.png" alt="Adobe Photoshop"></li>
-            <li><img src="images/figma.png" alt="Figma"></li>
-            <li><img src="images/vscode.png" alt="VS Code"></li>
-            <li><img src="images/invision.png" alt="Invision"></li>
-            </ul>
+            <div class="flexContainer">
+            <div id="column" class="flex_item">
+            <img src="images/animate.png" alt="Adobe Illustraitor"></div>
+            <div id="column" class="flex_item">
+                <img src="images/xd.png" alt="Adobe XD"></div>
+                <div id="column" class="flex_item">
+                    <img src="images/photoshop.png" alt="Adobe Photoshop"></div>
+                </div>
+
+            <div class="flexContainer">
+                    <div id="column" class="flex_item">
+                        <img src="images/figma.png" alt="Figma"></div>
+                        <div id="column" class="flex_item">
+                            <img src="images/vscode.png" alt="VS Code"></div>
+                            <div id="column" class="flex_item">
+                                <img src="images/invision.png" alt="Invision"></div>
+            </div>
 
         </div></div>
 
