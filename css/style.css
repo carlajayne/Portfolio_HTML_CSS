@@ -39,7 +39,7 @@ header{
     float: right;
     padding-right: 15px;
   }
-    /*Case Studies*/
+    /*************Case Studies*************/
 .CaseStudies {
   background-color: #C4C4C4;
   padding: 100px;
@@ -50,8 +50,7 @@ header{
   width: 33%;
   margin: 2%;
   padding: 16px;
-  justify-content: space-between;
-  flex-shrink: 1;
+  background-color: lightblue;
 }
 
 
@@ -59,11 +58,6 @@ header{
 
 .SkillsandTools {
   background-color: #C4C4C4;
-}
-.mySkills {
-}
-.myTools {
-  
 }
 
     /*Footer*/
@@ -105,5 +99,3 @@ header{
     display: inline-block;
     border: none;
   }
-
-  h2
