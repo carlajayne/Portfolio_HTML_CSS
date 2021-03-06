@@ -83,6 +83,10 @@ header{
     font-size: 60px;
     color:#A49393;
   }
+  h3 {
+    font-family: Open Sans, regular;
+
+  }
   p {
     font-family: Open Sans, regular;
     font-size: 15px;
