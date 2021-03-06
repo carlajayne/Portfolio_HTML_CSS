@@ -39,22 +39,38 @@ header{
     float: right;
     padding-right: 15px;
   }
-    /*************Case Studies*************/
-.CaseStudies {
-  background-color: #C4C4C4;
-  padding: 100px;
-}
-
+    /*Case Studies*/
 .flexContainer {
   display: flex;
-  width: 33%;
+  width: 100%;
   margin: 2%;
-  padding: 16px;
+  padding: 10px;
   background-color: lightblue;
 }
+.flex_item {
+  background-color: lightyellow;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 600px;
+  text-align: center;
+}
+.justifyContent {
+  justify-content: center;
+}
+img { 
+  max-width: 100%;
+  max-height: 100%;
+}
+#description {
+    position: relative;
+    left: 0;
+    bottom: 100px;
+  text-align: center;
+}
 
-
-    /*Skills and Tools*/
+    /************Skills and Tools******************/
 
 .SkillsandTools {
   background-color: #C4C4C4;
