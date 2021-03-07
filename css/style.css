@@ -39,21 +39,20 @@ header{
     float: right;
     padding-right: 15px;
   }
+
     /*Case Studies*/
 .flexContainer {
   display: flex;
   width: 100%;
-  margin: 2%;
-  padding: 10px;
   background-color: lightblue;
 }
 .flex_item {
-  background-color: lightyellow;
+  background-color:cornsilk;
   flex-direction: column;
   margin: 10px;
-  padding: 10px;
+  padding: 10x;
   width: 300px;
-  height: 600px;
+  height: auto;
   text-align: center;
 }
 .justifyContent {
@@ -66,23 +65,37 @@ img {
 #description {
     position: relative;
     left: 0;
-    bottom: 100px;
+    bottom: 50px;
   text-align: center;
 }
 
-    /************Skills and Tools******************/
+    /*Skills and Tools*/
 
-.SkillsandTools {
+.gridContainer {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
   background-color: #C4C4C4;
+  grid-gap: 10px;
+  grid-template-rows: auto auto auto;
 }
+.gridArea {
+  margin: 10px;
+  font-size: inherit;
+  background-color: cornsilk;
+  padding: 10px;
+}
+
 
     /*Footer*/
   footer {
-  position: fixed;
+  position: relative;
   width: 100%;
+  height: auto;
   left: 0;
   bottom: 0;
-  background-color: gray;
+  background-color:whitesmoke;
   text-align: center;
   }
   footer ul li{
@@ -96,15 +109,20 @@ img {
     color:#A49393;
   }
   h3 {
-    font-family: Open Sans, regular;
+    font-family: Open Sans;
 
   }
   p {
     font-family: Open Sans, regular;
     font-size: 15px;
   }
-  a:link {
+  a {
     font-family: Open Sans, regular;
+    color: gray;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
   button {
     font-family: Open Sans, Regular;
@@ -115,3 +133,22 @@ img {
     display: inline-block;
     border: none;
   }
+  #icon {
+    width: 180px;
+    height: 180px;
+  }
+  section {
+    padding: 0;
+    margin: 0;
+  }
+
+/*Media Query*/
+@media only screen and (max-width:600){
+  .flex-container {
+    flex-direction: column;
+  }
+  .gridContainer {
+    grid-template-rows: auto auto auto;
+  }
+  };
+}
