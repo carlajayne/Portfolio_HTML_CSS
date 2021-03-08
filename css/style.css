@@ -44,12 +44,14 @@ header{
 .flexContainer {
   display: flex;
   width: 100%;
-  background-color: lightblue;
+  background-color:transparent;
+  margin: 0;
+  padding: 0;
 }
 .flex_item {
-  background-color:cornsilk;
+  background-color: transparent;
   flex-direction: column;
-  margin: 10px;
+  margin: 0;
   padding: 10x;
   width: 300px;
   height: auto;
@@ -68,6 +70,13 @@ img {
     bottom: 50px;
   text-align: center;
 }
+.CaseStudies{
+  background-color:whitesmoke;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 
     /*Skills and Tools*/
 
@@ -76,7 +85,7 @@ img {
   width: 100%;
   justify-content: center;
   align-content: center;
-  background-color: #C4C4C4;
+  background-color: transparent;
   grid-gap: 10px;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto;
@@ -85,12 +94,43 @@ img {
 }
 .gridArea {
   margin: 10px;
-  background-color: cornsilk;
+  background-color: transparent;
   padding: 10px;
+}
+
+.gridContainer1{
+  display: grid;
+  grid-gap: 5px;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 600px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas:
+  "research"
+  "testing"
+  "visual";
 }
 .grid-item {
 width: 150px;
 height: 150px;
+}
+.Skills {
+  background-color:whitesmoke;
+  width: inherit;
+  height: inherit;
+  padding: 0px;
+  margin: 5px;
+}
+.myTools {
+  background-color:whitesmoke;
+  padding: 0px;
+  margin: 5px;
+}
+.SkillsExperience {
+  background-color:whitesmoke;
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 
@@ -101,12 +141,12 @@ height: 150px;
   height: auto;
   left: 0;
   bottom: 0;
-  background-color:whitesmoke;
+  background-color:#C4C4C4;
   text-align: center;
   }
   footer ul li{
     display: inline-block;
-    padding: 8px;
+    padding: 16px;
   }
     /*Web Style*/
   h1 {
