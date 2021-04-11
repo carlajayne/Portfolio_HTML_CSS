@@ -7,48 +7,30 @@
 
 # Portfolio - HTML & CSS 
 
-First repo for creating my portfolio with just HTML and CSS
-
-
-
-
-
-<!---
-carlajayne/carlajayne is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+Status: In Process
+First project on integration for HTML & CSS by using flex display and grid display. In this activity I tested responsive wed design as well at max with 600px.
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+- Using my previous work, I added in CSS grid display on my Skills and Tool section
+- I kept flex display for case study section
+- Media Query, started at 600px as this is the measurement for smaller devices
 
 ### Prerequisites
+Tools:
+- VSCode
+- GitHub Desktop
 
-What things you need to install the software and how to install them
+Results:
+- Contents decrease and maintain width
 
-```
-Give examples
-```
+<!-- ### Installing
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+ ## Running the tests
 
 Explain how to run the automated tests for this system
 
