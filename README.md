@@ -7,8 +7,8 @@
 
 # Portfolio - HTML & CSS 
 
-Status: In Process
-First project on integration for HTML & CSS by using flex display and grid display. In this activity I tested responsive wed design as well at max with 600px.
+- Status: In Process
+- First project on integration for HTML & CSS by using flex display and grid display. In this activity I tested responsive wed design as well at max with 600px.
 
 
 ## Getting Started
