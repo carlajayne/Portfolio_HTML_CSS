@@ -7,13 +7,15 @@
 
 # Portfolio - HTML & CSS 
 
-- Status: In Process
 - First project on integration for HTML & CSS by using flex display and grid display. In this activity I tested responsive wed design as well at max with 600px.
 
 
 ## Getting Started
 
 - Using my previous work, I added in CSS grid display on my Skills and Tool section
+- ![Skills   Tools Section](https://user-images.githubusercontent.com/67230580/114317479-51252600-9ad6-11eb-9353-4f69453869cf.png)
+- ![CaseStudy - Redline](https://user-images.githubusercontent.com/67230580/114317480-51bdbc80-9ad6-11eb-9d0f-4e5c14e9844c.png)
+
 - I kept flex display for case study section
 - Media Query, started at 600px as this is the measurement for smaller devices
 
@@ -24,6 +26,7 @@ Tools:
 
 Results:
 - Contents decrease and maintain width
+- Iterate on Your Portfolio and Code Responsive Design Elements
 
 <!-- ### Installing
 
